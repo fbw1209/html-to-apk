@@ -1,4 +1,4 @@
-# 📱 HTML 打包 APK 工具
+## HTML 打包 APK 工具
 
 一个图形化工具，帮助您将 HTML 文件、ZIP 包或网址快速打包为 Android APK。  
 支持自定义应用名称、包名、图标、权限，并使用 `apksigner` 对 APK 进行签名。
@@ -22,22 +22,10 @@
 
 ## 🛠️ 依赖文件
 
-请确保以下文件存在于程序同级目录下：
-项目目录/
-├── html-to-apk.py # 主程序
-├── apkEditor/
-│ └── apkEditor_2.exe # 打包核心工具
-├── apkEditorStudio/
-│ ├── apk-editor-studio.exe # 可选的 APK 编辑器（不必须）
-│ └── tools/
-│ ├── apktool.jar
-│ ├── apksigner.jar
-│ └── zipalign.exe
 
-
-- **Java** 环境（JDK 8 或更高版本） – 用于运行 `apktool.jar` 和 `apksigner.jar`
-- **Python 3.7+** 及依赖库：`Pillow`（用于图标处理，可选但推荐）
-- 签名证书（`.keystore` 或 `.jks`） – 若没有，可通过“生成证书”按钮在线生成
+- **Java** 环境（JDK 8 或更高版本）
+- **Python 3.7+** 
+- 签名证书`.keystore`
 
 ---
 
@@ -57,7 +45,7 @@
 
 ## 📝 证书要求
 
-- 密钥库文件（`.keystore` / `.jks`）
+- 密钥库文件`.keystore` 
 - 密钥库密码
 - 密钥别名
 - 密钥密码（通常与密钥库密码相同）
@@ -78,15 +66,9 @@
 - 打包过程会在系统临时目录创建 `html_to_apk_temp` 文件夹，退出后自动清理。
 - 签名后的 APK 会覆盖临时文件，最终输出到您指定的路径。
 - 若缺少 `zipalign.exe`，将自动跳过对齐优化，不影响正常打包。
-- 建议使用管理员身份运行（避免访问某些目录权限不足）。
 
 ---
 
-## 🖼️ 界面截图
-
-（可在此处插入程序截图）
-
----
 
 ## 👨‍💻 作者
 
