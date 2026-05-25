@@ -1,0 +1,171 @@
+# Version History
+
+## 1.7.2
+- Fixed manifest parsing for newer Apktool versions.
+- Fixed AAPT 1/2 switch for newer Apktool versions.
+- Fixed regular expression search by whole match.
+- Added word wrap support to code editor.
+- Added font configuration to code editor.
+- Added Android 14 and 15 support.
+- Added Luri (Bakhtiari) translation.
+- Added Ukrainian translation.
+- Added Vietnamese translation.
+- Updated default Apktool to 2.11.0.
+- macOS: Fixed minimum version to be 10.13 (High Sierra).
+
+## 1.7.1
+- Added support for optimizing shared libraries.
+- Added Arabic translation.
+- Added Spanish (Mexican) translation.
+- Fixed Apktool update loop when Java is not found.
+- Windows: Improved Java path detection.
+
+## 1.7.0
+- Added automatic Apktool updater.
+- Added framework manager.
+- Added global Find and Replace.
+- Added code search case sensitivity option.
+- Added code search by regular expression option.
+- Added syntax definition downloader.
+- Added ability to open resources in an external app.
+- Added ability to disassemble only main DEX classes.
+- Added ability to disassemble without debug info.
+- Added progress indication for APK cloning.
+- Added Android 13 support.
+- Added Swedish translation.
+- Updated default Apktool to 2.7.0.
+- Updated Android SDK Build Tools to 33.0.1.
+- Fixed error while saving the currently open resource.
+
+## 1.6.0
+- Added Smali syntax highlighting.
+- Added Find and Replace features to code editor.
+- Added code folding.
+- Added code indentation control (Tab, Shift+Tab).
+- Added custom dark theme for all platforms.
+- Added stand-alone version of Android Explorer.
+- Added ability to filter resource tree.
+- Added ability to build debuggable APKs.
+- Added Android 12 support.
+- Updated Apktool to 2.6.0.
+- Migrated to a new syntax highlighter.
+- Set AAPT2 as a default option.
+- Remember resource tree columns state.
+- Remove empty resource tree nodes.
+- Improved Android Explorer window.
+- Improved dynamic GUI translation.
+- Fixed erroneous resource item deletion on open file.
+- Added explicit warning for default keystore.
+- Windows: Fixed WebP image format support.
+- Windows: Changed default editor font to Consolas.
+- Linux: Dropped DEB package.
+- Linux: Updated Qt to 5.15.2.
+
+## 1.5.0
+- Added APK cloning (experimental).
+- Added signature viewer.
+- Added command line parameters.
+- Added ability to sign and optimize APK without unpacking.
+- Added support for multi-window mode.
+- Added support for system dark mode.
+- Added support for relative tool paths.
+- Added explicit toolbar customization.
+- Added RTL UI support.
+- Added Android 11 support.
+- Updated Apktool to 2.5.0.
+- Updated Android SDK Build Tools to 29.0.3.
+- Added Azerbaijani translation.
+- Added Chinese (Simplified) translation.
+- Added Czech translation.
+- Added English (British) translation.
+- Added French translation.
+- Added Hebrew translation.
+- Added Hungarian translation.
+- Added Indonesian translation.
+- Added Italian translation.
+- Added Korean translation.
+- Added Kurdish translation.
+- Added Persian translation.
+- Fixed installation of an unsaved project.
+- Fixed confirmation when closing modified tabs.
+- Fixed crash on empty application title.
+- Fixed potential duplicates in recent list.
+- Windows: Added Explorer integration.
+- Windows: Updated Qt to 5.15.2.
+- Windows: Removed bundled Visual C++ Redistributable.
+- macOS: Updated minimum version to 10.13 (High Sierra).
+- macOS: Updated Qt to 5.15.2.
+
+## 1.4.0
+- Added Android Explorer.
+- Added AAPT2 support.
+- Added ability to take screenshots.
+- Added ability to set Java heap size.
+- Added support for UTF-16 and UTF-32.
+- Added Greek translation.
+- Added Polish translation.
+- Added Romanian translation.
+- Added Turkish translation.
+- Fixed GUI freezes and crashes.
+- Fixed project modified state triggers.
+- Updated QtKeychain to 0.10.0.
+- Improved Key Manager layout.
+- macOS: Updated minimum version to 10.11 (El Capitan).
+- macOS: Updated Qt to 5.11.2.
+- Linux: Improved image format support.
+- Linux: Released first AppImage package.
+
+## 1.3.1
+- Updated Apktool to 2.4.1.
+- Added support for Android 10.
+- Windows: Fixed missing icons.
+
+## 1.3.0
+- Added Permission Editor.
+- Added ability to keep broken resources.
+- Added ability to specify path to Java.
+- Added German translation.
+- Added Japanese translation.
+- Added Portuguese translation.
+- Added Spanish translation.
+- Added sorting to title editor.
+- Improved code editor layout.
+- Improved handling of tool paths.
+- Fixed adaptive icon bug on bulk replacement.
+- Fixed Validity field on key store creation.
+- Made JKS a default key store type.
+- Changed loading animation to spinner.
+- Windows: Updated Qt to 5.13.2.
+
+## 1.2.0
+- Added support for WebP image format.
+- Added support for activity icons.
+- Added ability to remove resources.
+- Added ability to sort resource tree.
+- Added taskbar blinking / dock bouncing.
+- Added button to instantly copy log text.
+- Improved sorting by DPI.
+- Fixed project status badge bug.
+- Fixed resource replacement bug.
+- Windows: Updated Qt to 5.12.3.
+
+## 1.1.0
+- Added round icons support.
+- Added TV banners support.
+- Added API selection dialog.
+- Added line numbers in code editor.
+- Added "What's New" in the update dialog.
+- Added "DPI" column to the resource inspector.
+- Added current line highlighting in the code editor.
+- Updated Apktool to 2.4.0.
+- Display uniform-sized thumbnails in the icon list.
+- Display system file icons for non-graphical thumbnails.
+- Display tab titles without a bulky GUID prefix.
+- Improved drag and drop from external sources.
+- Improved code editor "Unsaved" state after undo.
+- Improved minor GUI details.
+- Windows: Updated Qt to 5.12.2.
+- Windows: Compiled OpenSSL to match VC versions.
+
+## 1.0.0
+- First release.
